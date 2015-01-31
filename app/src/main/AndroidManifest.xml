@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mal21.quran" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iclauncher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".Home_Screen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".read"
+            android:label="@string/title_activity_read" >
+        </activity>
+        <activity
+            android:name=".quran2"
+            android:label="@string/title_activity_quran2" >
+        </activity>
+        <activity
+            android:name=".quran3"
+            android:label="@string/title_activity_quran3" >
+        </activity>
+        <activity
+            android:name=".quran4"
+            android:label="@string/title_activity_quran4" >
+        </activity>
+        <activity
+            android:name=".listen"
+            android:label="@string/title_activity_listen" >
+        </activity>
+    </application>
+
+</manifest>
